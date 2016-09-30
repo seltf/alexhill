@@ -1,6 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Suez+One';
+
 body {
-	background-color: #212121;
+	background-color: #ECF0F1;
 }
 html,body {
 	margin:0;
@@ -39,15 +40,14 @@ a:visited {
 ul {
 	position: fixed;
 	width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #212121;
 }
 li {
-	float: right;
-	padding-right: 20;
+	display: inline;
 }
 li a {
     display: block;
@@ -60,7 +60,7 @@ li a:hover {
     background-color: #a0c4ff;
 }
 .active {
-    background-color: #ECF0F1;
+    background-color: #212121;
 	color: #212121;
 }
 .monospace {
@@ -75,18 +75,25 @@ li a:hover {
 }
 .vet {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	
 }
 .whitetxt {
 	color: #ECF0F1;
+}
+.darktxt {
+	color: #212121;
+}
+.turqtxt {
+	color: #41EAD4;
 }
 .suez
 	{
 		font-family: 'Suez One', serif;
 	}
-.page-header {
+.page-header-home {
 	color: #ffffff;
 	text-align: right;
-	background-color: #0f0f0f;
+	background-color: #011627;
 }
 .nav {
 	padding: 0px;
@@ -95,10 +102,37 @@ li a:hover {
 	font-family: 'Suez One', serif;
 	font-weight: bold;
 	background-color: #ECF0F1;
-	padding: 60px 0px 20px 0px;
+	padding: 20px 0px 20px 0px;
 	font-size: 48px;
 	text-align: center;
 }
 .button {
-    float: left;
+	font-family: 'Suez One', serif;
+	background-color: #ecf0f1;
+    border: none;
+    color: #212121;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: px px;
+    cursor: pointer;
+}
+button:focus {
+	outline: none;
+}
+button:active {
+	background-color: #ecf0f1;
+}
+button:hover {
+	color: #ecf0f1;
+	background-color: #212121;
+}
+.center {
+	text-align: center;
+}
+.line {
+	background-color: #212121;
+	font-size: 5px; /* this controls line thickness */
 }
