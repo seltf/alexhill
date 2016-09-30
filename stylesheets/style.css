@@ -1,12 +1,15 @@
-body{
-	background-color: #ECF0F1;
+@import 'https://fonts.googleapis.com/css?family=Suez+One';
+body {
+	background-color: #212121;
 }
-
-h1{
-	font-family: "Lucida Console", Monaco, monospace;
-	color: #268bd2;
+html,body {
+	margin:0;
+	padding:0;
 }
-h2{
+h1 {
+	color:;
+}
+h2 {
 	font-family: "Lucida Console", Monaco, monospace;
 	color: #d33682;
 }
@@ -14,26 +17,51 @@ h3 {
 	font-family: "Lucida Console", Monaco, monospace;
 	font-size: 14px;
 }
+a {
+	display: block;
+	padding: 10px;
+	background-color: 000000;
+}
 a:link {
     text-decoration: none;
-	color: #b58900;
+	color: #ffffff;
 }
 a:hover {
 	text-decoration: none;
-	color: #cb4b16 !important;
+	color:  !important;
 	
 }
 a:visited {
 	text-decoration: none;
-	color: #b58900;
+	color: #ffffff;
 }
+
 ul {
-	list-style-type: none;
-	margin: 0px;
-	padding: 0px;
+	position: fixed;
+	width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 li {
-	display: inline;
+	float: right;
+	padding-right: 20;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #a0c4ff;
+}
+.active {
+    background-color: #ECF0F1;
+	color: #212121;
 }
 .monospace {
 	font-family: "Lucida Console", Monaco, monospace;
@@ -44,4 +72,33 @@ li {
 }
 .grow:hover { 
 	transform: scale(1.1); 
+}
+.vet {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.whitetxt {
+	color: #ECF0F1;
+}
+.suez
+	{
+		font-family: 'Suez One', serif;
+	}
+.page-header {
+	color: #ffffff;
+	text-align: right;
+	background-color: #0f0f0f;
+}
+.nav {
+	padding: 0px;
+}
+.banner {
+	font-family: 'Suez One', serif;
+	font-weight: bold;
+	background-color: #ECF0F1;
+	padding: 60px 0px 20px 0px;
+	font-size: 48px;
+	text-align: center;
+}
+.button {
+    float: left;
 }
