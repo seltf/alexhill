@@ -60,8 +60,7 @@ li a:hover {
     background-color: #a0c4ff;
 }
 .active {
-    background-color: #212121;
-	color: #212121;
+    background-color: #4480e2;
 }
 .monospace {
 	font-family: "Lucida Console", Monaco, monospace;
@@ -110,7 +109,7 @@ li a:hover {
 	font-family: 'Suez One', serif;
 	background-color: #ecf0f1;
     border: none;
-    color: #212121;
+    color: #212121 !important;
     padding: 5px 20px;
     text-align: center;
     text-decoration: none;
@@ -118,6 +117,10 @@ li a:hover {
     font-size: 24px;
     margin: px px;
     cursor: pointer;
+}
+.button:hover {
+	color: #ecf0f1 !important;
+	background-color: #212121;
 }
 button:focus {
 	outline: none;
