@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Suez+One';
+*{ position: relative; }
 
 body {
 	background-color: #ECF0F1;
@@ -59,6 +60,9 @@ li a {
 li a:hover {
     background-color: #a0c4ff;
 }
+div {
+	
+}
 .active {
     background-color: #4480e2;
 }
@@ -67,7 +71,7 @@ li a:hover {
 }
 .grow { 
 	transition: all .1s ease-in;
-	transform-origin: left;
+	transform-origin: center;
 }
 .grow:hover { 
 	transform: scale(1.1); 
@@ -85,8 +89,7 @@ li a:hover {
 .turqtxt {
 	color: #41EAD4;
 }
-.suez
-	{
+.suez {
 		font-family: 'Suez One', serif;
 	}
 .page-header-home {
@@ -138,4 +141,25 @@ button:hover {
 .line {
 	background-color: #212121;
 	font-size: 5px; /* this controls line thickness */
+}
+.main-body {
+	margin: 50px;
+}
+.box {
+    background-color: nonex;
+    width: 250px;
+	height: 180px;
+    border: 6px solid #212121;
+    padding: 10px;
+    margin: 10px;
+	text-align: center;
+}
+.box-header {
+    background-color: none;
+    color: white;
+    padding: 0px;
+    font-size: 40px;
+}
+.inline-block {
+	display: inline-block;
 }
