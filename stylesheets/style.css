@@ -74,7 +74,8 @@ div {
 	transform-origin: center;
 }
 .grow:hover { 
-	transform: scale(1.1); 
+	transform: scale(1.1);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .vet {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -87,7 +88,10 @@ div {
 	color: #212121;
 }
 .turqtxt {
-	color: #41EAD4;
+	color: #0fd8d8;
+}
+.redtxt {
+	color: #CC333F;
 }
 .suez {
 		font-family: 'Suez One', serif;
@@ -162,4 +166,7 @@ button:hover {
 }
 .inline-block {
 	display: inline-block;
+}
+.shadow {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
