@@ -22,11 +22,12 @@ h3 {
 a {
 	display: block;
 	padding: 10px;
+	color: #212121;
 	background-color: 000000;
 }
 a:link {
     text-decoration: none;
-	color: #ffffff;
+	color: #212121;
 }
 a:hover {
 	text-decoration: none;
@@ -35,7 +36,7 @@ a:hover {
 }
 a:visited {
 	text-decoration: none;
-	color: #ffffff;
+	color: #212121;
 }
 
 ul {
@@ -76,6 +77,13 @@ div {
 .grow:hover { 
 	transform: scale(1.1);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.grow-noshad { 
+	transition: all .1s ease-in;
+	transform-origin: center;
+}
+.grow-noshad:hover { 
+	transform: scale(1.1);
 }
 .vet {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -167,6 +175,23 @@ button:hover {
 .inline-block {
 	display: inline-block;
 }
-.shadow {
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.comic {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding:;
+	border: 6px solid #212121;
+}
+.title {
+	font-family: 'Suez One', serif;
+	font-size: 32px;
+}
+.title-card {
+	font-family: 'Suez One', serif;
+	font-size: 24px;
+	color: #212121;
+	border: 6px solid #212121;
+	padding-top: 0px;
+	text-align: center;
+	display: inline-block;
+	overflow: hidden;
+	margin: 0px;
 }
