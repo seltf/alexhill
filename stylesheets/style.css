@@ -2,7 +2,7 @@
 *{ position: relative; }
 
 body {
-	background-color: #ECF0F1;
+	background-color: #ffffff;
 }
 html,body {
 	margin:0;
@@ -115,14 +115,14 @@ div {
 .banner {
 	font-family: 'Suez One', serif;
 	font-weight: bold;
-	background-color: #ECF0F1;
+	background-color: #ffffff;
 	padding: 20px 0px 20px 0px;
 	font-size: 48px;
 	text-align: center;
 }
 .button {
 	font-family: 'Suez One', serif;
-	background-color: #ecf0f1;
+	background-color: #ffffff;
     border: none;
     color: #212121 !important;
     padding: 5px 20px;
@@ -134,17 +134,17 @@ div {
     cursor: pointer;
 }
 .button:hover {
-	color: #ecf0f1 !important;
+	color: #ffffff !important;
 	background-color: #212121;
 }
 button:focus {
 	outline: none;
 }
 button:active {
-	background-color: #ecf0f1;
+	background-color: #ffffff;
 }
 button:hover {
-	color: #ecf0f1;
+	color: #ffffff;
 	background-color: #212121;
 }
 .center {
