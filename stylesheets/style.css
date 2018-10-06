@@ -1,4 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Suez+One';
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
 *{ position: relative; }
 
 body {
@@ -104,6 +106,9 @@ div {
 .suez {
 		font-family: 'Suez One', serif;
 	}
+.garamond {
+		font-family: 'EB Garamond', serif;
+}
 .page-header-home {
 	color: #ffffff;
 	text-align: right;
@@ -113,7 +118,7 @@ div {
 	padding: 0px;
 }
 .banner {
-	font-family: 'Suez One', serif;
+	font-family: 'EB Garamond', serif;
 	font-weight: bold;
 	background-color: #ffffff;
 	padding: 20px 0px 20px 0px;
@@ -121,7 +126,7 @@ div {
 	text-align: center;
 }
 .button {
-	font-family: 'Suez One', serif;
+	font-family: 'EB Garamond', serif;
 	background-color: #ffffff;
     border: none;
     color: #212121 !important;
@@ -134,8 +139,8 @@ div {
     cursor: pointer;
 }
 .button:hover {
-	color: #ffffff !important;
-	background-color: #212121;
+	color: #212121 !important;
+	font-weight: bold;
 }
 button:focus {
 	outline: none;
@@ -178,7 +183,7 @@ button:hover {
 .comic {
 	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 	padding:;
-	border: 6px solid #212121;
+	border: 1px solid #212121;
 }
 .title {
 	font-family: 'Suez One', serif;
@@ -188,10 +193,11 @@ button:hover {
 	font-family: 'Suez One', serif;
 	font-size: 24px;
 	color: #212121;
-	border: 6px solid #212121;
+	border: 1px solid #212121;
 	padding-top: 0px;
 	text-align: center;
 	display: inline-block;
 	overflow: hidden;
 	margin: 0px;
+
 }
