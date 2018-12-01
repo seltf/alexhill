@@ -127,14 +127,9 @@ div {
 }
 .button {
 	font-family: 'EB Garamond', serif;
-	background-color: #ffffff;
     border: none;
     color: #212121 !important;
-<<<<<<< HEAD
-    padding: 5px 8px;
-=======
     padding: 5px 10px;
->>>>>>> 555307eed418a4ae92293a4be001181f94f444b0
     text-align: center;
     text-decoration: none;
     display: inline-block;
